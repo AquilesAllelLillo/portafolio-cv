@@ -1,12 +1,12 @@
 import React, { Component } from "react"
 import Scrollspy from 'react-scrollspy'
 
-import Scroll from '../Scroll'
 import Footer from "../Footer/Footer"
 
 import avatar from '../../assets/images/avatar.jpg'
 import config from '../../../config';
 //import '../../assets/styles/Sidebar.scss'
+import '../../assets/styles/Sidebar.css'
 
 export class Sidebar extends Component {
 
@@ -35,6 +35,38 @@ export class Sidebar extends Component {
   render() {
     const { tabs, isCollapsed } = this.state;
     return (
+      <React.Fragment>
+
+      <section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who we are</a></li>
+							<li><a href="#two">What we do</a></li>
+							<li><a href="#three">Get in touch</a></li>
+              {tabs.map((tab, i) => {
+              const { href, content } = tab;
+              return (
+                <li className="nav-item" key={href}>
+                  <a className="nav-link" href={`#${href}`}>
+                    {content}
+                  </a>
+                </li>
+              );
+            })}
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+
+
+
+
+
+
+
       <nav
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
         id="sideNav"
@@ -76,11 +108,9 @@ export class Sidebar extends Component {
               const { href, content } = tab;
               return (
                 <li className="nav-item" key={href}>
-                  <Scroll type="id" element={href}>
-                    <a className="nav-link" href={`#${href}`}>
-                      {content}
-                    </a>
-                  </Scroll>
+                  <a className="nav-link" href={`#${href}`}>
+                    {content}
+                  </a>
                 </li>
               );
             })}
@@ -88,6 +118,7 @@ export class Sidebar extends Component {
         </div>
         <Footer />
       </nav>
+      </React.Fragment>
     );
   }
 }

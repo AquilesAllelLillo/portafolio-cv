@@ -5,23 +5,13 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon fa-twitter">
-            <span className="label">Twitter</span>
+          <a href="#" className="icon fa-linkedin-in">
+            <span className="label">Linkedin</span>
           </a>
         </li>
         <li>
           <a href="#" className="icon fa-github">
             <span className="label">Github</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-envelope-o">
-            <span className="label">Email</span>
           </a>
         </li>
       </ul>
@@ -30,7 +20,7 @@ const Footer = () => (
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </li>
-        <li>&copy; Gatsby Starter Strata</li>
+        <li>&copy; Proyecto portafolio con Gatsby</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
