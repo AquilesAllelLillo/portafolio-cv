@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Sidebar from "./Sidebar/Sidebar"
+import Footer from "./Footer/Footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,7 +25,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Sidebar siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
           margin: `0 auto`,
@@ -44,6 +43,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
       </div>
+      <Footer />
     </>
   )
 }
