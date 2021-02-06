@@ -1,6 +1,9 @@
 import React from 'react'
 
+import '../../assets/styles/Footer.css'
+
 const Footer = () => (
+  <React.Fragment>
   <div id="footer">
     <div className="inner">
       <ul className="copyright">
@@ -15,6 +18,21 @@ const Footer = () => (
       </ul>
     </div>
   </div>
+
+
+
+
+
+  <footer id="footer" className="wrapper alt">
+		<div className="inner">
+			<ul className="menu">
+				<li>&copy; Untitled. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+  </React.Fragment>
 )
 
 export default Footer
