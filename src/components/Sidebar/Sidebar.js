@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-import '../../assets/styles/Sidebar.css'
+import '../../assets/styles/components/Sidebar.css'
 
 export class Sidebar extends Component {
 
