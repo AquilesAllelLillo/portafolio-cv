@@ -1,10 +1,12 @@
 #footer {
   margin-left: 18em;
+  background: #5e42a6; /* Color Header */
 }
 
 @media screen and (max-width: 1280px) {
   #footer {
     margin-left: 0;
+    background: #3c2c62; /* Color Sidebar */
   }
 }
 
