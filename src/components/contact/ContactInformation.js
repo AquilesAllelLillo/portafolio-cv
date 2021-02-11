@@ -8,18 +8,18 @@ const ContactInformation = () =>
   <section>
     <ul className="contact">
       <li>
-        <h3>Address</h3>
+        <h3>Dirección</h3>
         <span>
-          12345 Somewhere Road #654
+          Ñuñoa
           <br />
-          Nashville, TN 00000-0000
+          Santiago
           <br />
-          USA
+          Chile
         </span>
       </li>
       <li>
         <h3>Email</h3>
-        <a href="/#">user@untitled.tld</a>
+        <a href="/#">aquilesallellillo@gmail.com</a>
       </li>
       <li>
         <h3>Phone</h3>
@@ -42,9 +42,6 @@ const ContactInformation = () =>
             <Link to="https://github.com/AquilesAllelLillo">
               <FontAwesomeIcon icon={ faGithub } size="2x" />
             </Link>
-            <a href="/#" className="fa-github">
-              <span className="label">GitHub</span>
-            </a>
           </li>
           <li>
             <a href="/#" className="fa-instagram">

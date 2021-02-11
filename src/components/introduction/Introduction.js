@@ -4,6 +4,7 @@ import Scroll from '../common/Scroll';
 const Introduction = () =>
   <section id="intro" className="wrapper style1 fullscreen fade-up">
     <div className="inner">
+      <h1>Aquiles Allel Lillo</h1>
       <h1>Hyperspace</h1>
       <p>
         Just another fine responsive site template designed by{' '}
