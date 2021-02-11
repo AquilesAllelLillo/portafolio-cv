@@ -8,10 +8,11 @@
 import React from "react"
 //import PropTypes from "prop-types"
 //import { useStaticQuery, graphql } from "gatsby"
+//import { Link } from "gatsby"
 
 import Sidebar from '../Sidebar/Sidebar'
 import Footer from "../Footer/Footer"
-import "../layout.css"
+import "../../assets/styles/components/Layout.css"
 
 const Layout = ({ children }) => {
   
