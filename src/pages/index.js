@@ -1,17 +1,27 @@
-import React from "react"
-// import { Link } from "gatsby"
+import React from 'react';
 
-import Sidebar from "../components/Sidebar/Sidebar"
-import Layout from "../components/Layout/Layout"
-import SEO from "../components/SEO/Seo"
+//import SEO from '../components/SEO/Seo';
+import Layout   from '../components/common/Layout';
+import Footer   from '../components/common/Footer';
+import Sidebar  from '../components/common/Sidebar';
 
-const IndexPage = () => (
-  <React.Fragment>
+import Introduction from '../components/introduction/Introduction';
+import Features     from '../components/features/Features';
+import Capabilities from '../components/capabilities/Capabilities';
+import Contact      from '../components/contact/Contact';
+
+const IndexPage = () =>
+  <Layout>
     <Sidebar />
-    <Layout>
-      <SEO title="Home" />
-    </Layout>
-  </React.Fragment>
-)
 
-export default IndexPage
+    <div id="wrapper">
+      <Introduction />
+      <Features />
+      <Capabilities />
+      <Contact />
+    </div>
+
+    <Footer />
+  </Layout>
+
+export default IndexPage;
