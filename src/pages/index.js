@@ -9,6 +9,7 @@ import Introduction from '../components/introduction/Introduction';
 import Features     from '../components/features/Features';
 import Capabilities from '../components/capabilities/Capabilities';
 import Contact      from '../components/contact/Contact';
+import Skills       from '../components/skills/Skills';
 
 const IndexPage = () =>
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () =>
       <Features />
       <Capabilities />
       <Contact />
+      <Skills />
     </div>
 
     <Footer />

@@ -47,10 +47,6 @@ const ContactInformation = () =>
         <h3>Email</h3>
         <a href="/#">aquilesallellillo@gmail.com</a>
       </li>
-      <li>
-        <h3>Phone</h3>
-        <span>(000) 000-0000</span>
-      </li>
       {/* Reduciendo el codigo */}
       {dataContact.map((item, index) => (
         <li key={index}>
