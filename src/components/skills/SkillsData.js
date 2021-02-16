@@ -1,31 +1,47 @@
 export const frontendSkills = [
   {
     "type": "Java",
-    "level": 100
-  },
-  {
-    "type": "React",
     "level": 85
   },
   {
-    "type": "Javascript",
-    "level": 75
+    "type": "Git",
+    "level": 85
   },
   {
-    "type": "Spring",
+    "type": "Python",
+    "level": 60
+  },
+  {
+    "type": "Django",
     "level": 50
   },
   {
-    "type": "Docker",
-    "level": 25
+    "type": "Angular",
+    "level": 70
   },
   {
-    "type": "HTML",
-    "level": 20
+    "type": "JavaScript",
+    "level": 80
   },
   {
-    "type": "NoSQL",
-    "level": 0
+    "type": "NodeJS",
+    "level": 60
+  },
+  {
+    "type": "React",
+    "level": 80
+  },
+  {
+    "type": "Gatsby",
+    "level": 70
+  },
+  {
+    "type": "HTML5",
+    "level": 100
+  },
+  {
+    "type": "CSS",
+    "level": 90
   },
 ]
 

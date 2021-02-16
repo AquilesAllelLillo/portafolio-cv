@@ -5,13 +5,13 @@ import Tab from './Tab';
 
 const Sidebar = () => {
   const [tabs] = React.useState([
-    { content: 'About', href: 'intro' },
+    { content: 'Sobre mi', href: 'about' },
     { content: 'Who we are', href: 'one' },
     { content: 'Proyectos', href: 'proyectos' },
-    { content: 'Get in touch', href: 'three' },
+    { content: 'Contacto', href: 'contact' },
     { content: 'About', href: 'about' },
-    { content: 'Experience', href: 'experience' },
-    { content: 'Education', href: 'education' },
+    { content: 'Experiencia', href: 'experience' },
+    { content: 'Educación', href: 'education' },
     { content: 'Skills', href: 'skills' },
     { content: 'Interests', href: 'interests' },
     { content: 'Awards', href: 'awards' },

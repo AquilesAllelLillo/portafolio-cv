@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from 'gatsby';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const dataContact = [
   {
@@ -65,24 +65,9 @@ const ContactInformation = () =>
             </li>
           ))}
           <li>
-            <a href="/#" className="fa-twitter">
-              <span className="label">Twitter</span>
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="fa-facebook">
-              <span className="label">Facebook</span>
-            </a>
-          </li>
-          <li>
             <Link to="https://github.com/AquilesAllelLillo">
               <FontAwesomeIcon icon={ faGithub } size="2x" />
             </Link>
-          </li>
-          <li>
-            <a href="/#" className="fa-instagram">
-              <span className="label">Instagram</span>
-            </a>
           </li>
           <li>
             <Link to="https://www.linkedin.com/in/aquiles-allel-lillo-882b5b61/">
