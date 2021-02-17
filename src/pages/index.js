@@ -10,6 +10,8 @@ import Features     from '../components/features/Features';
 import Capabilities from '../components/capabilities/Capabilities';
 import Contact      from '../components/contact/Contact';
 import Skills       from '../components/skills/Skills';
+import Education    from '../components/education/Education';
+import Experience   from '../components/experience/Experience';
 
 const IndexPage = () =>
   <Layout>
@@ -18,9 +20,11 @@ const IndexPage = () =>
     <div id="wrapper">
       <Introduction />
       <Features />
+      <Skills />
+      <Experience />
+      <Education />
       <Capabilities />
       <Contact />
-      <Skills />
     </div>
 
     <Footer />

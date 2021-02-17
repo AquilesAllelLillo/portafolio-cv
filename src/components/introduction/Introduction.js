@@ -30,7 +30,15 @@ const Introduction = () =>
         <a href="http://html5up.net/license">Creative Commons</a>.
       </p>
       <hr />
-      <h3>Para ver mis redes sociales o descargar mi curriculum: </h3>
+      <h1>Intereses</h1>
+      <p>
+        Mis intereses, programador autodidacta, Brazilian Jiu Jitsu
+      </p>
+      <hr />
+      <h3>Más información </h3>
+      <p>
+        Para ver mis redes sociales o descargar mi curriculum:
+      </p>
       <ul className="icons">
         <li>
           <Link to="https://github.com/AquilesAllelLillo">
@@ -48,9 +56,9 @@ const Introduction = () =>
           <a href={CV} target="_blank" className="button">
             Curriculum
           </a>
-          <Scroll type="id" element="one">
-            <a href="#one" className="button">
-              Siguiente
+          <Scroll type="id" element="contact">
+            <a href="#contact" className="button">
+              Contacto
             </a>
           </Scroll>
         </li>

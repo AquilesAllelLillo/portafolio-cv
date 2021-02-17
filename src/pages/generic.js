@@ -36,6 +36,11 @@ const SecondPage = () => (
             risus, commodo eget turpis at, elementum convallis elit.
             Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
           </p>
+          
+          <a href="/" className="button">
+            Volver
+          </a>
+
         </div>
       </section>
     </div>
