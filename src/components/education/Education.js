@@ -13,7 +13,7 @@ const Education = () => {
   }
 
   return (
-    <section id="education" className="wrapper fullscreen fade-up">
+    <section id="education" className="wrapper style5 fullscreen fade-up">
       <div className="skills">
         <h1>Educación</h1>
         <p>

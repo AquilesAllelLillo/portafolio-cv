@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap'
 export default function Skills() {
   
   return (
-    <section id="skills" className="wrapper fullscreen fade-up">
+    <section id="skills" className="wrapper style6 fullscreen fade-up">
       <div className="skills">
         <h1>Skills</h1>
         <p>

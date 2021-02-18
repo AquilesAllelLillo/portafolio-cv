@@ -13,7 +13,7 @@ const Experience = () => {
   }
 
   return (
-    <section id="experience" className="wrapper fullscreen fade-up">
+    <section id="experience" className="wrapper style4 fullscreen fade-up">
       <div className="skills">
         <h1>Experiencia</h1>
         <p>
