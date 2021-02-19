@@ -3,7 +3,6 @@
   "private": true,
   "description": "Portafolio desarrollado con Gatsby",
   "version": "1.1.0",
-  "homepage": "https://aquilesallellillo.github.io/portafolio-cv/",
   "author": {
     "name": "Aquiles Allel Lillo",
     "email": "aquilesallellillo@gmail.com"
@@ -17,6 +16,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "@loadable/component": "^5.14.1",
     "bootstrap": "^4.6.0",
     "gatsby": "^2.32.0",
     "gatsby-image": "^2.5.0",
@@ -54,9 +54,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/AquilesAllelLillo/portafolio-cv/issues"
