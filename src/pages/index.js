@@ -6,7 +6,6 @@ import Footer   from '../components/common/Footer';
 import Sidebar  from '../components/common/Sidebar';
 
 import Introduction from '../components/introduction/Introduction';
-import Features     from '../components/features/Features';
 import Capabilities from '../components/capabilities/Capabilities';
 import Contact      from '../components/contact/Contact';
 import Skills       from '../components/skills/Skills';
@@ -19,7 +18,6 @@ const IndexPage = () =>
 
     <div id="wrapper">
       <Introduction />
-      <Features />
       <Skills />
       <Experience />
       <Education />

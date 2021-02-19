@@ -1,74 +1,7 @@
-export const frontendSkills = [
-  {
-    "type": "Java",
-    "level": 85
-  },
-  {
-    "type": "Git",
-    "level": 85
-  },
-  {
-    "type": "Python",
-    "level": 60
-  },
-  {
-    "type": "Django",
-    "level": 50
-  },
-  {
-    "type": "Angular",
-    "level": 70
-  },
-  {
-    "type": "JavaScript",
-    "level": 80
-  },
-  {
-    "type": "NodeJS",
-    "level": 60
-  },
-  {
-    "type": "React",
-    "level": 80
-  },
-  {
-    "type": "Gatsby",
-    "level": 70
-  },
+export const fullSkills = [
   {
     "type": "HTML5",
-    "level": 100
-  },
-  {
-    "type": "CSS",
-    "level": 90
-  },
-]
-
-export const frontendSkillsColors = {
-  "bar": "#3498db",
-  "title": {
-    "text": "#fff",
-    "background": "#2980b9"
-  }
-}
-
-// Info obtenida de https://www.npmjs.com/package/react-skills-bars
-export const fullSkillsPrueba = [
-  {
-    "type": "Java",
     "level": 100,
-    "color": {
-      "bar": "#3498db",
-      "title": {
-        "text": "#fff",
-        "background": "#2980b9"
-      }
-    }
-  },
-  {
-    "type": "React",
-    "level": 85,
     "color": {
       "bar": "#4288d0",
       "title": {
@@ -78,52 +11,63 @@ export const fullSkillsPrueba = [
     }
   },
   {
-    "type": "Javascript",
+    "type": "CSS",
+    "level": 90,
+    "color": {
+      "bar": "#4288d0",
+      "title": {
+        "text": "#fff",
+        "background": "#124e8c"
+      }
+    }
+  },
+  {
+    "type": "JavaScript",
+    "level": 80,
+    "color": {
+      "bar": "#4288d0",
+      "title": {
+        "text": "#fff",
+        "background": "#124e8c"
+      }
+    }
+  },
+  {
+    "type": "React",
+    "level": 80,
+    "color": {
+      "bar": "#4288d0",
+      "title": {
+        "text": "#fff",
+        "background": "#124e8c"
+      }
+    }
+  },
+  {
+    "type": "Gatsby",
     "level": 75,
     "color": {
-      "bar": "#2c3e50",
+      "bar": "#4288d0",
       "title": {
         "text": "#fff",
-        "background": "#2c3e50"
+        "background": "#124e8c"
       }
     }
   },
   {
-    "type": "Spring",
-    "level": 50,
+    "type": "Angular",
+    "level": 70,
     "color": {
-      "bar": "#5a68a5",
+      "bar": "#4288d0",
       "title": {
         "text": "#fff",
-        "background": "#46465e"
+        "background": "#124e8c"
       }
     }
   },
   {
-    "type": "Docker",
-    "level": 25,
-    "color": {
-      "bar": "#525252",
-      "title": {
-        "text": "#fff",
-        "background": "#333333"
-      }
-    }
-  },
-  {
-    "type": "HTML",
-    "level": 20,
-    "color": {
-      "bar": "black",
-      "title": {
-        "text": "#111",
-        "background": "#fff"
-      }
-    }
-  },
-  {
-    "type": "NoSQL",
-    "level": 0,
+    "type": "NodeJS",
+    "level": 65,
     "color": {
       "bar": "#2ecc71",
       "title": {
@@ -131,5 +75,82 @@ export const fullSkillsPrueba = [
         "background": "#27ae60"
       }
     }
-  }
+  },
+  {
+    "type": "Java",
+    "level": 85,
+    "color": {
+      "bar": "#2ecc71",
+      "title": {
+        "text": "#fff",
+        "background": "#27ae60"
+      }
+    }
+  },
+  {
+    "type": "Git",
+    "level": 85,
+    "color": {
+      "bar": "#2ecc71",
+      "title": {
+        "text": "#fff",
+        "background": "#27ae60"
+      }
+    }
+  },
+  {
+    "type": "Python",
+    "level": 60,
+    "color": {
+      "bar": "#2ecc71",
+      "title": {
+        "text": "#fff",
+        "background": "#27ae60"
+      }
+    }
+  },
+  {
+    "type": "Django",
+    "level": 50,
+    "color": {
+      "bar": "#2ecc71",
+      "title": {
+        "text": "#fff",
+        "background": "#27ae60"
+      }
+    }
+  },
+  {
+    "type": "SCRUM",
+    "level": 80,
+    "color": {
+      "bar": "#5a68a5",
+      "title": {
+        "text": "#fff",
+        "background": "#4288d0"
+      }
+    }
+  },
+  {
+    "type": "Empatía",
+    "level": 90,
+    "color": {
+      "bar": "#5a68a5",
+      "title": {
+        "text": "#fff",
+        "background": "#4288d0"
+      }
+    }
+  },
+  {
+    "type": "Estoico",
+    "level": 90,
+    "color": {
+      "bar": "#5a68a5",
+      "title": {
+        "text": "#fff",
+        "background": "#4288d0"
+      }
+    }
+  },
 ]

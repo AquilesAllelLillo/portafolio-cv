@@ -6,12 +6,14 @@ import ContactInformation from './ContactInformation';
 const Contact = () =>
   <section id="contact" className="wrapper style1 fade-up">
     <div className="inner">
-      <h2>Get in touch</h2>
+      <h2>Contacto</h2>
       <p>
-        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-        turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-        lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-        imperdiet est velit quis lorem.
+        A continuación, encontrarás mis datos de contacto por si te quieres
+        comunicar conmigo, así como mis redes sociales.
+      </p>
+      <hr />
+      <p>
+        El formulario de contacto no se encuentra operativo... por el momento.
       </p>
       <div className="split style1">
         <ContactForm />

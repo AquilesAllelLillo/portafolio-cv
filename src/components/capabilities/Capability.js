@@ -1,16 +1,15 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Capability = ({ heading, description, iconClass }) =>
+const Capability = ({ heading, miniDescription, link }) =>
   <section>
-    <span className={`icon major ${iconClass}`} />
     <h3>{heading}</h3>
-    <p>{description}</p>
+    <p>{miniDescription}</p>
     
     <ul className="actions">
         <li>
-          <Link className="button" to="/generic">
-            Learn more
+          <Link className="button" to={link} target="_blank">
+            Visitar Proyecto
           </Link>
         </li>
       </ul>

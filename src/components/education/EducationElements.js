@@ -3,14 +3,14 @@ export const educationElements = [
     "id": 1,
     "title": "Ingeniero en Computación",
     "institution": "Universidad Central de Chile",
-    "description": "User Experience, Visual Design",
+    "description": "Carrera universitaria completada.",
     "date": "2010 – 2018",
   },
   {
     "id": 2,
     "title": "Licenciado en Ciencias de la Computación",
     "institution": "Universidad Central de Chile",
-    "description": "User Experience, Visual Design",
+    "description": "Licenciatura completada, parte de la formación universitaria.",
     "date": "2010 – 2017",
   },
   {
