@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from '../components/common/layout';
+import Layout from '../components/common/Layout';
 import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 

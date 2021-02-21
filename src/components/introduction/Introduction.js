@@ -40,19 +40,19 @@ const Introduction = () =>
       </p>
       <ul className="icons">
         <li>
-          <Link to="https://github.com/AquilesAllelLillo" target="_blank">
+          <Link to="https://github.com/AquilesAllelLillo" target="_blank" rel="noreferrer" >
             <FontAwesomeIcon icon={ faGithub } size="2x" />
           </Link>
         </li>
         <li>
-          <Link to="https://www.linkedin.com/in/aquiles-allel-lillo-882b5b61/" target="_blank">
+          <Link to="https://www.linkedin.com/in/aquiles-allel-lillo-882b5b61/" target="_blank" rel="noreferrer" >
             <FontAwesomeIcon icon={ faLinkedin } size="2x" />
           </Link>
         </li>
       </ul>
       <ul className="actions">
         <li>
-          <a href={CV} target="_blank" className="button">
+          <a href={CV} target="_blank" rel="noreferrer" className="button">
             Curriculum
           </a>
           <Scroll type="id" element="contact">

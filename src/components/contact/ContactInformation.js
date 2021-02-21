@@ -44,7 +44,7 @@ const ContactInformation = () =>
         <ul className="icons">
           {socialContact.map((item, index) => (
             <li key={index}>
-              <Link to={item.link} target="_blank">
+              <Link to={item.link} target="_blank" rel="noreferrer" >
                 <FontAwesomeIcon icon={ item.icon } size="2x" />
               </Link>
             </li>
